@@ -1,0 +1,234 @@
+
+/*----------------------Responsive Breakpoint-----------------------------*/
+
+/*-------------------------------------------xxl--------------------------------------------------------------------------------------------*/
+@media screen and (max-width:1980px) and (min-width:1860px) 
+{
+    .col-12b {
+        width: 100%;display: none;
+    }
+    .d-xxl{display: none;}
+ 
+}
+
+
+/*-----------------------------------------------------------------------------xxl 2------------------------------------------------------------------------*/
+@media screen and (max-width:1859.99px) and (min-width:1440px) 
+{
+    .container{width:1380px;}
+    .col-12a {
+        width: 100%;display: none;
+    }
+    .d-xxl2{display: none;}
+    .p-xxl-5{padding-left:5%;}
+    .mt-xxl-2{margin-top: 2%;}
+    /*-------------------------------Animation-------------------*/
+.animation-0{position: absolute; top: 33.7%; left:17%; width: 150px; height: 150px; animation: move-0 15s  linear;opacity: 1;display: none;}
+.animation-1{position: absolute; top:29.5%; right:44%; width: 150px; height: 150px; animation: move-1 15s  linear;opacity: 1;display: none;}
+.animation-2{position: absolute; top: 16.7%; left:9.2%; width: 200px; height: 200px; display: none;}
+.animation-2 img{animation: move-2 20s infinite linear; transform: rotate(0deg);display: none;}
+.animation-3{position: absolute; top: 15%; left:52%; width: 200px; height: 200px; animation: move-3 15s  linear;display: none;}
+
+ 
+}
+
+/*----------------------------------------------------------------xl------------------------------------------------------------------*/
+@media screen and (max-width:1439.99px) and (min-width:1200px) 
+{
+    .container{width:1140px;}
+    .col-12a {
+        width: 100%;display: none;
+    }
+    
+    .d-xl{display: none;}
+    .bt-xl {
+        position: absolute;
+        width: 100%;
+        top: 13%;
+        left: 0;}
+        .mt-xxl-2{margin-top: 2%;}
+        .fs-xl{font-size: 22px;}
+        /*-------------------------------Animation-------------------*/
+.animation-0{position: absolute; top: 33.7%; left:17%; width: 150px; height: 150px; animation: move-0 15s  linear;opacity: 1;display: none;}
+.animation-1{position: absolute; top:29.5%; right:44%; width: 150px; height: 150px; animation: move-1 15s  linear;opacity: 1;display: none;}
+.animation-2{position: absolute; top: 16.7%; left:9.2%; width: 200px; height: 200px; display: none;}
+.animation-2 img{animation: move-2 20s infinite linear; transform: rotate(0deg);display: none;}
+.animation-3{position: absolute; top: 15%; left:52%; width: 200px; height: 200px; animation: move-3 15s  linear;display: none;}
+
+/*-------------------------------Animation part  6---------------------*/
+.relative{position: relative;}
+.animation-40{position: absolute;right: 39%; animation: move-40 20s infinite linear; opacity: 1; }
+.animation-41{position: absolute;right: 43%; animation: move-41 20s infinite linear; opacity: 1; }
+.animation-42{position: absolute;right: 44%; animation: move-42 20s infinite linear; opacity: 1; }
+.animation-43{position: absolute;right: 43%; animation: move-43 20s infinite linear; opacity: 1; }
+.animation-44{position: absolute;right: 44%;  animation: move-44 20s infinite linear; opacity:1; }
+.animation-45{position: absolute;right: 44%; animation: move-45 20s infinite linear; opacity:1; }
+
+}
+
+
+
+/*----------------------------------------------------------------------------lg--------------------------------------------------------*/
+@media screen and (max-width:1199.99px) and (min-width:992px) 
+{
+    .container{width:940px;}
+    .col-12a {
+        width: 100%;display: none;
+    }
+    .d-lg{display: none;}
+    .box-lg-12{width: 100%;}
+    .ms-lg-25{margin-left: 25%;}
+    .ms-lg-27{margin-left: 31%;}
+    
+    .fs-lg{font-size: 22px;}
+    .fs-lg-p{font-size: 16px;}
+    .bt-lg {
+        position: absolute;
+        width: 100%;
+        top: 14%;
+        left: 0;}
+        .mt-xxl-2{margin-top: 2%;}
+
+        
+        /*-------------------------------Animation-------------------*/
+.animation-0{position: absolute; top: 33.7%; left:17%; width: 150px; height: 150px; animation: move-0 15s  linear;opacity: 1;display: none;}
+.animation-1{position: absolute; top:29.5%; right:44%; width: 150px; height: 150px; animation: move-1 15s  linear;opacity: 1;display: none;}
+.animation-2{position: absolute; top: 16.7%; left:9.2%; width: 200px; height: 200px; display: none;}
+.animation-2 img{animation: move-2 20s infinite linear; transform: rotate(0deg);display: none;}
+.animation-3{position: absolute; top: 15%; left:52%; width: 200px; height: 200px; animation: move-3 15s  linear;display: none;}
+
+/*-------------------------------Animation part  6---------------------*/
+.relative{position: relative;}
+.animation-40{position: absolute;right: 34%; animation: move-40 20s infinite linear; opacity: 1; }
+.animation-41{position: absolute;right: 41%; animation: move-41 20s infinite linear; opacity: 1; }
+.animation-42{position: absolute;right: 43%; animation: move-42 20s infinite linear; opacity: 1; }
+.animation-43{position: absolute;right: 41%; animation: move-43 20s infinite linear; opacity: 1; }
+.animation-44{position: absolute;right: 43%;  animation: move-44 20s infinite linear; opacity:1; }
+.animation-45{position: absolute;right: 43%; animation: move-45 20s infinite linear; opacity:1; }
+}
+
+/*----------------------------------------------------------------------md-----------------------------------------------------------------------*/
+@media screen and (max-width:991.99px) and (min-width:768px) 
+{
+    .container{width:740px;}
+    .col-12a {
+        width: 100%;display: none;
+    }
+    .d-md{display: none;}
+    .box-lg-12{width: 100%;}
+    .ms-md-25{margin-left: 15%;}
+
+    .ms-md-27{margin-left: 31%;}
+    .fs-md{font-size: 35px;}
+    .fs-md-p{font-size: 14px;}
+    .bt-md {
+        position: absolute;
+        width: 100%;
+        top: 35%;
+        left: 0;}
+        .mt-xxl-2{margin-top: 2%;}
+      .box-md-4{width: 33.33%;}
+       .col-md-6{width: 50%;}
+  .mt-md-3{margin-top: 12%;}
+
+  .mt-sm-4{margin-top: 10%;}
+
+        /*-------------------------------Animation-------------------*/
+.animation-0{position: absolute; top: 33.7%; left:17%; width: 150px; height: 150px; animation: move-0 15s  linear;opacity: 1;display: none;}
+.animation-1{position: absolute; top:29.5%; right:44%; width: 150px; height: 150px; animation: move-1 15s  linear;opacity: 1;display: none;}
+.animation-2{position: absolute; top: 16.7%; left:9.2%; width: 200px; height: 200px; display: none;}
+.animation-2 img{animation: move-2 20s infinite linear; transform: rotate(0deg);display: none;}
+.animation-3{position: absolute; top: 15%; left:52%; width: 200px; height: 200px; animation: move-3 15s  linear;display: none;}
+
+/*-------------------------------Animation part  6---------------------*/
+.relative{position: relative;}
+.animation-40{position: absolute;right: 29%; animation: move-40 20s infinite linear; opacity: 1; }
+.animation-41{position: absolute;right: 39%; animation: move-41 20s infinite linear; opacity: 1; }
+.animation-42{position: absolute;right: 41%; animation: move-42 20s infinite linear; opacity: 1; }
+.animation-43{position: absolute;right:  39%; animation: move-43 20s infinite linear; opacity: 1; }
+.animation-44{position: absolute;right: 41%;  animation: move-44 20s infinite linear; opacity:1; }
+.animation-45{position: absolute;right: 41%; animation: move-45 20s infinite linear; opacity:1; }
+}
+
+/*------------------------------------------------------sm--------------------------------------------------------------------------*/
+@media screen and (max-width:767.99px) and (min-width:576px) 
+{
+    .container{width:540px;}
+    [class*="box-"]{ width: 100%;}
+    .col-12a {
+        width: 100%;display: none;
+    }
+    .d-sm{display: none;}
+    .me-sm-5{margin-right:23% ;}
+    .box-lg-12{width: 100%;}
+    .ms-sm-25{margin-left: 3%;}
+    .ms-sm-27{margin-left: 29%;}
+    .ms-sm-2{margin-left:5%;}
+    .fs-sm{font-size: 28px;}
+    .mt-xxl-2{margin-top: 2%;}
+    .box-md-4{width: 33.33%;}
+    .col-sm-12{width: 100%;}
+    .fs-md-p{font-size: 14px;}
+    .mt-md-3{margin-top: 12%;}
+    .mt-sm-4{margin-top: 10%;}
+        /*-------------------------------Animation-------------------*/
+.animation-0{position: absolute; top: 33.7%; left:17%; width: 150px; height: 150px; animation: move-0 15s  linear;opacity: 1;display: none;}
+.animation-1{position: absolute; top:29.5%; right:44%; width: 150px; height: 150px; animation: move-1 15s  linear;opacity: 1;display: none;}
+.animation-2{position: absolute; top: 16.7%; left:9.2%; width: 200px; height: 200px; display: none;}
+.animation-2 img{animation: move-2 20s infinite linear; transform: rotate(0deg);display: none;}
+.animation-3{position: absolute; top: 15%; left:52%; width: 200px; height: 200px; animation: move-3 15s  linear;display: none;}
+
+/*-------------------------------Animation part  6---------------------*/
+.relative{position: relative;}
+.animation-40{position: absolute;right: 25%; animation: move-40 20s infinite linear; opacity: 1; }
+.animation-41{position: absolute;right: 36%; animation: move-41 20s infinite linear; opacity: 1; }
+.animation-42{position: absolute;right: 38%; animation: move-42 20s infinite linear; opacity: 1; }
+.animation-43{position: absolute;right:  36%; animation: move-43 20s infinite linear; opacity: 1; }
+.animation-44{position: absolute;right: 38%;  animation: move-44 20s infinite linear; opacity:1; }
+.animation-45{position: absolute;right: 38%; animation: move-45 20s infinite linear; opacity:1; }
+
+}
+
+
+/*---------------------------------------------------------------xs-------------------------------------------------------------------------------*/
+@media screen and (max-width:575.99px) and (min-width:320px) 
+{
+    .container{width: 100% !important;;} 
+    .col-12a {
+        width: 100%;display: none;
+    }
+    .d-xs{display: none;}
+    .me-xs-5{margin-right:23% ;}
+    .box-lg-12{width: 100%;}
+    .ms-xs-25{margin-left: 5%;}
+    .mx-xs-5{margin-left: 2%px;margin-right: 1%;}
+    .fs-xs{font-size: 20px;}
+    .fs-xs-p{font-size: 16px;}
+    .mt-xxl-2{margin-top: 2%;}
+    .box-md-4{width: 33.33%;}
+    .col-sm-12{width: 100%;}
+    .ms-sm-2{margin-left:5%;}
+    .fs-md-p{font-size: 14px;}
+    .mt-md-3{margin-top: 12%;}
+    .mt-sm-4{margin-top: 10%;}
+    .ms-xs-27{margin-left: 15%;}
+
+        /*-------------------------------Animation-------------------*/
+.animation-0{position: absolute; top: 33.7%; left:17%; width: 150px; height: 150px; animation: move-0 15s  linear;opacity: 1;display: none;}
+.animation-1{position: absolute; top:29.5%; right:44%; width: 150px; height: 150px; animation: move-1 15s  linear;opacity: 1;display: none;}
+.animation-2{position: absolute; top: 16.7%; left:9.2%; width: 200px; height: 200px; display: none;}
+.animation-2 img{animation: move-2 20s infinite linear; transform: rotate(0deg);display: none;}
+.animation-3{position: absolute; top: 15%; left:52%; width: 200px; height: 200px; animation: move-3 15s  linear;display: none;}
+
+/*-------------------------------Animation part  6---------------------*/
+.relative{position: relative;}
+.animation-40{position: absolute;right: 20%; animation: move-40 20s infinite linear; opacity: 1; }
+.animation-41{position: absolute;right: 33%; animation: move-41 20s infinite linear; opacity: 1; }
+.animation-42{position: absolute;right: 33%; animation: move-42 20s infinite linear; opacity: 1; }
+.animation-43{position: absolute;right:  31%; animation: move-43 20s infinite linear; opacity: 1; }
+.animation-44{position: absolute;right: 33%;  animation: move-44 20s infinite linear; opacity:1; }
+.animation-45{position: absolute;right: 33%; animation: move-45 20s infinite linear; opacity:1; }
+
+}
+
+

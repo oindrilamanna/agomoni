@@ -1,0 +1,695 @@
+ @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/*---------Offline font include---------------*/
+@font-face {
+    font-family: 'Lobster', cursive;
+    src: url(../webfonts/Lobster-Regular.ttf);
+    src: url(../webfonts/Lobster-Regular.woff2);}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    font-family:Helvetica;
+    background-color: #fdfdfd;
+    scroll-behavior: smooth;
+}
+
+* {box-sizing: border-box;}
+ .index-1{z-index: 99999;}
+
+.bg-durga{
+    background: url("../images/background-2.png") no-repeat;
+    background-size: cover;
+  }
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.container-fluid {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+/*---------GRID DESIGN-----------------------*/
+
+.col-12 {
+    width: 100%;
+}
+.col-12a {
+    width: 100%;
+}
+.col-12b {
+    width: 100%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-1 {
+    width: 8.33%;
+}
+
+/*---------GRID DESIGN-----------------------*/
+
+.justify-start {
+    justify-content: flex-start;
+}
+
+.justify-end {
+    justify-content: flex-end;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.justify-around {
+    justify-content: space-around;
+}
+
+.img-fluid {
+    width: 100%;
+    display: block;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+/*--------------------------POsition----------------------------*/
+
+
+/*---Effect-3----*/
+
+.level-position-3 {
+    position: relative;
+    border: 1px solid rgb(110, 110, 109);
+    width: 96%;
+    margin: 10px 2%;
+    overflow: hidden;
+}
+
+.level-position-3 img {
+    width: 100%;
+    display: block;
+    transition: all 3s ease;
+}
+
+.abs-text-3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0);
+    transition: all 0.5s ease;
+}
+
+.abs-text-3 h3 {
+    color: black;
+    opacity: 0;
+    transition: all 0.5s ease;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.abs-text-3 h3 a {
+    color: white;
+    text-decoration: none;
+}
+
+.level-position-3:hover .abs-text-3 {
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.level-position-3:hover .abs-text-3 h3 {
+    opacity: 1;
+    color: white;
+}
+
+.level-position-3:hover img {
+    transform: scale(1.2);
+}
+/*-------------------------------------banner css----------------------*/
+.banner-pos {
+    position: relative;
+    width: 100%;
+}
+
+.banner-text {
+    position: absolute;
+    width: 100%;
+    top: 30%;
+    left: 0;}
+
+    .banner-text-1 {
+        position: absolute;
+        width: 100%;
+        top: 20%;
+        left: 0;}
+/*------------------------text center----------------------*/
+.text-center {
+    text-align: center;
+}
+.text-align{text-align: justify;}
+/*-----------------------------------margin---------------------*/
+.mx-auto { margin-left: auto; margin-right: auto;}
+
+.mt-1{margin-top: 1%;}
+.mt-5{margin-top: 5%;}
+.mt-3{margin-top: 3%;}
+.mt-7{margin-top: 7%;}
+.mt-20{margin-top: 25%;}
+.mx-5{margin-left: 5px;margin-right: 5px;}
+
+.ms-12{margin-left: 12%;}
+.ms-3{margin-left: 3%;}
+
+.ms-20{margin-left: 37%;}
+/*------------------------------------padding--------------------*/
+.px-5{padding-right: 5%;padding-left: 5%;}
+.ps-5{padding-left: 2%;}
+/*-----------------------------------------colors-------------------*/
+.bg-gray{color: #5a5858;}
+.bg-maroon{color: #8d1316;}
+.bg-yellow{color: #d28a1c;}
+.bg-white{color: #f5f5f5;}
+
+  /*-----------------------------footer-------------------*/
+
+
+  .text-center-6{color: #ffffff;padding-bottom: 25px;text-align: center;}
+  .social-link a{color: #f0940b; text-decoration: none; margin: 3px 5px;}
+  .social-link a:hover{color: #e0e0e0;}
+  .copyright{color: #f0940b; text-align: center; font-size: 16px;}
+  .margin-8{margin-top: 10px;}
+  .bg-orange{background: #f0940b;}
+
+/*-------------------------------Animation-------------------*/
+.relative{position: relative;}
+
+.animation-0{position: absolute; top: 33.7%; left:17%; width: 150px; height: 150px; animation: move-0 15s  linear;opacity: 1;}
+@keyframes move-0 {
+    0%{opacity: 0;}
+    25%{opacity: 1;}
+    50%{opacity: 1;}
+    75%{opacity: 1;}
+    80%{opacity: 1;}
+    100%{opacity:1;}}
+
+.animation-1{position: absolute; top:30.1%; right:44%; width: 150px; height: 150px; animation: move-1 15s  linear;opacity: 1;}
+@keyframes move-1 {
+    0%{opacity: 0;}
+    25%{opacity: 1;}
+    50%{opacity: 1;}
+    75%{opacity: 1;}
+    80%{opacity: 1;}
+    100%{opacity:1;}}
+
+.animation-2{position: absolute; top: 16.7%; left:9.2%; width: 200px; height: 200px; }
+.animation-2 img{animation: move-2 20s infinite linear; transform: rotate(0deg);}
+
+
+    @keyframes move-2 {
+        0%{transform: rotate(0deg);}
+        100%{transform: rotate(360deg);}
+    }
+        
+
+    .animation-3{position: absolute; top: 15%; left:52%; width: 200px; height: 200px; animation: move-3 15s  linear;}
+@keyframes move-3 {
+    0%{opacity:0;}
+    25%{opacity:0;}
+    50%{opacity: 1;}
+    75%{opacity: 1;}
+    80%{opacity: 1;}
+    100%{opacity:1;}}
+    
+/*-------------------------------Animation siuli ful---------------------*/
+.animation-14{position: absolute; bottom: 5%; left:50%; animation: move-14 7s infinite linear; opacity: 1;}
+.animation-15{position: absolute; bottom: 5%; left:55%; animation: move-15 9s infinite linear; opacity: 1;}
+.animation-16{position: absolute; bottom: 15%; left:60%; animation: move-16 5s infinite linear; opacity: 1;}
+.animation-17{position: absolute; bottom: 20%; left:65%; animation: move-17 8s infinite linear; opacity: 1;}
+.animation-18{position: absolute; bottom: 25%; left:70%; animation: move-18 10s infinite linear; opacity: 1;}
+.animation-19{position: absolute; bottom: 30%; left:75%; animation: move-19 6s infinite linear; opacity: 1;}
+.animation-20{position: absolute; bottom: 35%; left:80%; animation: move-20 5s infinite linear; opacity: 1;}
+.animation-21{position: absolute; bottom: 40%; left:85%; animation: move-21 8s infinite linear; opacity: 1;}
+.animation-22{position: absolute; bottom: 45%; left:90%; animation: move-22 6s infinite linear; opacity: 1;}
+
+
+@keyframes move-14 {
+    0%{bottom:100%; opacity: 1;}
+    50%{bottom: 0%; opacity: 0;}
+    100%{bottom: 0%; opacity: 0;}
+ }
+@keyframes move-15 {
+    0%{bottom:100%; opacity: 1;}
+    50%{bottom: 0%; opacity: 0;}
+    100%{bottom: 0%; opacity: 0;}
+ }
+@keyframes move-16 {
+    0%{bottom:100%; opacity: 1;}
+    50%{bottom: 0%; opacity: 0;}
+    100%{bottom: 0%; opacity: 0;}
+ }
+@keyframes move-17 {
+    0%{bottom:100%; opacity: 1;}
+    50%{bottom: 0%; opacity: 0;}
+    100%{bottom: 0%; opacity: 0;}
+
+
+}
+@keyframes move-18 {
+    0%{bottom:100%; opacity: 1;}
+    50%{bottom: 0%; opacity: 0;}
+    100%{bottom: 0%; opacity: 0;}
+ }
+@keyframes move-19 {
+    0%{bottom:100%; opacity: 1;}
+    50%{bottom: 0%; opacity: 0;}
+    100%{bottom: 0%; opacity: 0;}
+ }
+@keyframes move-20 {
+    0%{bottom:100%; opacity: 1;}
+    50%{bottom: 0%; opacity: 0;}
+    100%{bottom: 0%; opacity: 0;}
+ }
+@keyframes move-21 {
+    0%{bottom:100%; opacity: 1;}
+    50%{bottom: 0%; opacity: 0;}
+    100%{bottom: 0%; opacity: 0;}
+ }
+
+@keyframes move-22 {
+    0%{bottom:100%; opacity: 1;}
+    50%{bottom: 0%; opacity: 0;}
+    100%{bottom: 0%; opacity: 0;}
+ }
+/*-------------------------------Animation4 asur 1-------------------*/
+.relative{position: relative;}
+.animation-4{position: absolute; left: 20%; top:200%; width: 160px; height:200px; animation: move-4 5s infinite linear;}
+@keyframes move-4 {
+    0%{top: 160%;}
+    25%{top: 155%;}
+    50%{top: 150%;}
+    75%{top: 155%;}
+    100%{top: 160%;}
+    
+}
+
+/*-------------------------------shib bisnu brombha 5----------------------*/
+.relative{position: relative;}
+.animation-5{position: absolute; right: 80%; top:300%; width: 200px; height: 200px; animation: move-5 7s infinite linear;}
+.animation-6{position: absolute; right: 50%; top:300%; width: 200px; height: 200px; animation: move-6 7s infinite linear;}
+.animation-7{position: absolute; left: 77%; top:300%; width: 200px; height: 200px; animation: move-7 7s infinite linear;}
+
+
+@keyframes move-5 {
+    0%{top: 300%;}
+    25%{top: 295%;}
+    50%{top: 290%;}
+    75%{top: 295%;}
+    100%{top:300%;}
+    
+}
+
+@keyframes move-6 {
+    0%{top: 300%;}
+    25%{top: 295%;}
+    50%{top: 290%;}
+    75%{top: 295%;}
+    100%{top:300%;}
+    
+}
+
+@keyframes move-7 {
+    0%{top: 300%;}
+    25%{top: 295%;}
+    50%{top: 290%;}
+    75%{top: 295%;}
+    100%{top:300%;}
+    
+}
+/*-------------------------------Animation part  6---------------------*/
+.relative{position: relative;}
+.animation-40{position: absolute;right: 40%; animation: move-40 20s infinite linear; opacity: 1; }
+.animation-41{position: absolute;right: 44.5%; animation: move-41 20s infinite linear; opacity: 1; }
+.animation-42{position: absolute;right: 45.5%; animation: move-42 20s infinite linear; opacity: 1; }
+.animation-43{position: absolute;right:  44.5%; animation: move-43 20s infinite linear; opacity: 1; }
+.animation-44{position: absolute;right: 45.5%;  animation: move-44 20s infinite linear; opacity:1; }
+.animation-45{position: absolute;right: 45.5%; animation: move-45 20s infinite linear; opacity:1; }
+
+
+@keyframes move-40 {
+    0%{ opacity: 0;}
+    8.33%{ opacity: 1;}
+    16.66%{ opacity:0 ;}
+    24.99%{opacity: 0;}
+    33.32%{opacity: 0;}
+    41.65%{opacity: 0;}
+    49.98%{ opacity: 0;}
+    58.31%{ opacity: 0;}
+    66.64%{ opacity: 0;}
+    74.97%{ opacity: 0;}
+    83.3%{ opacity: 0;}
+    91.63%{ opacity: 0;}
+    100%{ opacity: 0;}
+
+ }
+ @keyframes move-41 {
+    0%{ opacity: 0;}
+    8.33%{ opacity: 0;}
+    16.66%{ opacity:0 ;}
+    24.99%{opacity: 1;}
+    33.32%{opacity: 0;}
+    41.65%{opacity: 0;}
+    49.98%{ opacity: 0;}
+    58.31%{ opacity: 0;}
+    66.64%{ opacity: 0;}
+    74.97%{ opacity: 0;}
+    83.3%{ opacity: 0;}
+    91.63%{ opacity: 0;}
+    100%{ opacity: 0;}
+
+ }
+
+ @keyframes move-42 {
+    0%{ opacity: 0;}
+    8.33%{ opacity: 0;}
+    16.66%{ opacity:0 ;}
+    24.99%{opacity: 0;}
+    33.32%{opacity: 0;}
+    41.65%{opacity: 1;}
+    49.98%{ opacity: 0;}
+    58.31%{ opacity: 0;}
+    66.64%{ opacity: 0;}
+    74.97%{ opacity: 0;}
+    83.3%{ opacity: 0;}
+    91.63%{ opacity: 0;}
+    100%{ opacity: 0;}
+
+ }
+
+ @keyframes move-43 {
+    0%{ opacity: 0;}
+    8.33%{ opacity: 0;}
+    16.66%{ opacity:0 ;}
+    24.99%{opacity: 0;}
+    33.32%{opacity: 0;}
+    41.65%{opacity: 0;}
+    49.98%{ opacity: 0;}
+    58.31%{ opacity: 1;}
+    66.64%{ opacity: 0;}
+    74.97%{ opacity: 0;}
+    83.3%{ opacity: 0;}
+    91.63%{ opacity: 0;}
+    100%{ opacity: 0;}
+
+ }
+
+ @keyframes move-44 {
+    0%{ opacity: 0;}
+    8.33%{ opacity: 0;}
+    16.66%{ opacity:0 ;}
+    24.99%{opacity: 0;}
+    33.32%{opacity: 0;}
+    41.65%{opacity: 0;}
+    49.98%{ opacity: 0;}
+    58.31%{ opacity: 0;}
+    66.64%{ opacity: 0;}
+    74.97%{ opacity: 1;}
+    83.3%{ opacity: 0;}
+    91.63%{ opacity: 0;}
+    100%{ opacity: 0;}
+
+ }
+
+ @keyframes move-45 {
+    0%{ opacity: 0;}
+    8.33%{ opacity: 0;}
+    16.66%{ opacity:0 ;}
+    24.99%{opacity: 0;}
+    33.32%{opacity: 0;}
+    41.65%{opacity: 0;}
+    49.98%{ opacity: 0;}
+    58.31%{ opacity: 0;}
+    66.64%{ opacity: 0;}
+    74.97%{ opacity: 0;}
+    83.3%{ opacity: 0;}
+    91.63%{ opacity: 1;}
+    100%{ opacity: 0;}
+
+ }
+/*-------------------------------Animation 9---------------------*/
+.relative{position: relative;}
+.animation-23{position: absolute; animation: move-23 40s infinite linear; opacity: 1; }
+.animation-24{position: absolute; animation: move-24 40s infinite linear; opacity: 1; }
+.animation-25{position: absolute; animation: move-25 40s infinite linear; opacity: 1; }
+.animation-26{position: absolute; animation: move-26 40s infinite linear; opacity: 1; }
+.animation-27{position: absolute;  animation: move-27 40s infinite linear; opacity:1; }
+.animation-28{position: absolute;  animation: move-28 40s infinite linear; opacity:1; }
+.animation-29{position: absolute;  animation: move-29 40s infinite linear; opacity:1; }
+.animation-30{position: absolute;  animation: move-30 40s infinite linear; opacity:1; }
+.animation-31{position: absolute;  animation: move-31 40s infinite linear; opacity:1; }
+
+@keyframes move-23 {
+    0%{ opacity: 0;}
+    5.55%{ opacity: 1;}
+    11.1%{ opacity:0 ;}
+    16.65%{opacity: 0;}
+    22.2%{opacity: 0;}
+    27.75%{opacity: 0;}
+    33.3%{ opacity: 0;}
+    38.85%{ opacity: 0;}
+    44.4%{ opacity: 0;}
+    49.95%{ opacity: 0;}
+    55.5%{ opacity: 0;}
+    61.05%{ opacity: 0;}
+    66.6%{ opacity: 0;}
+    72.15%{ opacity: 0;}
+    77.7%{ opacity: 0;}
+    83.25%{ opacity: 0;}
+    88.8%{ opacity: 0;}
+    94.35%{ opacity: 0;}
+    100%{ opacity: 0;}
+ }
+@keyframes move-24 {
+    0%{ opacity: 0;}
+    5.55%{ opacity: 0;}
+    11.1%{ opacity:0 ;}
+    16.65%{opacity: 1;}
+    22.2%{opacity: 0;}
+    27.75%{opacity: 0;}
+    33.3%{ opacity: 0;}
+    38.85%{ opacity: 0;}
+    44.4%{ opacity: 0;}
+    49.95%{ opacity: 0;}
+    55.5%{ opacity: 0;}
+    61.05%{ opacity: 0;}
+    66.6%{ opacity: 0;}
+    72.15%{ opacity: 0;}
+    77.7%{ opacity: 0;}
+    83.25%{ opacity: 0;}
+    88.8%{ opacity: 0;}
+    94.35%{ opacity: 0;}
+    100%{ opacity: 0;}
+ }
+@keyframes move-25 {
+    0%{ opacity: 0;}
+    5.55%{ opacity: 0;}
+    11.1%{ opacity:0 ;}
+    16.65%{opacity: 0;}
+    22.2%{opacity: 0;}
+    27.75%{opacity: 1;}
+    33.3%{ opacity: 0;}
+    38.85%{ opacity: 0;}
+    44.4%{ opacity: 0;}
+    49.95%{ opacity: 0;}
+    55.5%{ opacity: 0;}
+    61.05%{ opacity: 0;}
+    66.6%{ opacity: 0;}
+    72.15%{ opacity: 0;}
+    77.7%{ opacity: 0;}
+    83.25%{ opacity: 0;}
+    88.8%{ opacity: 0;}
+    94.35%{ opacity: 0;}
+    100%{ opacity: 0;}
+ }
+@keyframes move-26 {
+    0%{ opacity: 0;}
+    5.55%{ opacity: 0;}
+    11.1%{ opacity:0 ;}
+    16.65%{opacity: 0;}
+    22.2%{opacity: 0;}
+    27.75%{opacity: 0;}
+    33.3%{ opacity: 0;}
+    38.85%{ opacity: 1;}
+    44.4%{ opacity: 0;}
+    49.95%{ opacity: 0;}
+    55.5%{ opacity: 0;}
+    61.05%{ opacity: 0;}
+    66.6%{ opacity: 0;}
+    72.15%{ opacity: 0;}
+    77.7%{ opacity: 0;}
+    83.25%{ opacity: 0;}
+    88.8%{ opacity: 0;}
+    94.35%{ opacity: 0;}
+    100%{ opacity: 0;}
+ }
+@keyframes move-27 {
+    0%{ opacity: 0;}
+    5.55%{ opacity: 0;}
+    11.1%{ opacity:0 ;}
+    16.65%{opacity: 0;}
+    22.2%{opacity: 0;}
+    27.75%{opacity: 0;}
+    33.3%{ opacity: 0;}
+    38.85%{ opacity: 0;}
+    44.4%{ opacity: 0;}
+    49.95%{ opacity: 1;}
+    55.5%{ opacity: 0;}
+    61.05%{ opacity: 0;}
+    66.6%{ opacity: 0;}
+    72.15%{ opacity: 0;}
+    77.7%{ opacity: 0;}
+    83.25%{ opacity: 0;}
+    88.8%{ opacity: 0;}
+    94.35%{ opacity: 0;}
+    100%{ opacity: 0;}
+ }
+@keyframes move-28 {
+    0%{ opacity: 0;}
+    5.55%{ opacity: 0;}
+    11.1%{ opacity:0 ;}
+    16.65%{opacity: 0;}
+    22.2%{opacity: 0;}
+    27.75%{opacity: 0;}
+    33.3%{ opacity: 0;}
+    38.85%{ opacity: 0;}
+    44.4%{ opacity: 0;}
+    49.95%{ opacity: 0;}
+    55.5%{ opacity: 0;}
+    61.05%{ opacity: 1;}
+    66.6%{ opacity: 0;}
+    72.15%{ opacity: 0;}
+    77.7%{ opacity: 0;}
+    83.25%{ opacity: 0;}
+    88.8%{ opacity: 0;}
+    94.35%{ opacity: 0;}
+    100%{ opacity: 0;}
+ }
+@keyframes move-29 {
+    0%{ opacity: 0;}
+    5.55%{ opacity: 0;}
+    11.1%{ opacity:0 ;}
+    16.65%{opacity: 0;}
+    22.2%{opacity: 0;}
+    27.75%{opacity: 0;}
+    33.3%{ opacity: 0;}
+    38.85%{ opacity: 0;}
+    44.4%{ opacity: 0;}
+    49.95%{ opacity: 0;}
+    55.5%{ opacity: 0;}
+    61.05%{ opacity: 0;}
+    66.6%{ opacity: 0;}
+    72.15%{ opacity: 1;}
+    77.7%{ opacity: 0;}
+    83.25%{ opacity: 0;}
+    88.8%{ opacity: 0;}
+    94.35%{ opacity: 0;}
+    100%{ opacity: 0;}
+ }
+@keyframes move-30 {
+    0%{ opacity: 0;}
+    5.55%{ opacity: 0;}
+    11.1%{ opacity:0 ;}
+    16.65%{opacity: 0;}
+    22.2%{opacity: 0;}
+    27.75%{opacity: 0;}
+    33.3%{ opacity: 0;}
+    38.85%{ opacity: 0;}
+    44.4%{ opacity: 0;}
+    49.95%{ opacity: 0;}
+    55.5%{ opacity: 0;}
+    61.05%{ opacity: 0;}
+    66.6%{ opacity: 0;}
+    72.15%{ opacity: 0;}
+    77.7%{ opacity: 0;}
+    83.25%{ opacity: 1;}
+    88.8%{ opacity: 0;}
+    94.35%{ opacity: 0;}
+    100%{ opacity: 0;}
+ }
+@keyframes move-31 {
+    0%{ opacity: 0;}
+    5.55%{ opacity: 0;}
+    11.1%{ opacity:0 ;}
+    16.65%{opacity: 0;}
+    22.2%{opacity: 0;}
+    27.75%{opacity: 0;}
+    33.3%{ opacity: 0;}
+    38.85%{ opacity: 0;}
+    44.4%{ opacity: 0;}
+    49.95%{ opacity: 0;}
+    55.5%{ opacity: 0;}
+    61.05%{ opacity: 0;}
+    66.6%{ opacity: 0;}
+    72.15%{ opacity: 0;}
+    77.7%{ opacity: 0;}
+    83.25%{ opacity: 0;}
+    88.8%{ opacity: 0;}
+    94.35%{ opacity: 1;}
+    100%{ opacity: 0;}
+ }
